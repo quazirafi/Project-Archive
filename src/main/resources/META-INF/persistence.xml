@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<persistence-unit name="great-dao-pu"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.great.cms.db.entity.Course</class>
+		<class>com.great.cms.db.entity.CourseRegistration</class>
+		<class>com.great.cms.db.entity.CourseTask</class>
+		<class>com.great.cms.db.entity.Department</class>
+		<class>com.great.cms.db.entity.Designation</class>
+		<class>com.great.cms.db.entity.Exam</class>
+		<class>com.great.cms.db.entity.ExamCommittee</class>
+		<class>com.great.cms.db.entity.Groups</class>
+		<class>com.great.cms.db.entity.Project</class>
+		<class>com.great.cms.db.entity.ProjectGroup</class>
+		<class>com.great.cms.db.entity.ProjectGroupSubmit</class>
+		<class>com.great.cms.db.entity.ProjectTag</class>
+		<class>com.great.cms.db.entity.Student</class>
+		<class>com.great.cms.db.entity.StudentGroup</class>
+		<class>com.great.cms.db.entity.Submission</class>
+		<class>com.great.cms.db.entity.Tag</class>
+		<class>com.great.cms.db.entity.Task</class>
+		<class>com.great.cms.db.entity.TaskProject</class>
+		<class>com.great.cms.db.entity.TaskType</class>
+		<class>com.great.cms.db.entity.Teacher</class>
+		<class>com.great.cms.db.entity.Teaches</class>
+		<class>com.great.cms.db.entity.User</class>
+		<class>com.great.cms.db.entity.UserType</class>
+		<class>com.great.cms.db.entity.Question</class>
+	    <class>com.great.cms.db.entity.QuestionType</class>
+
+
+
+		<properties>
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
+			<property name="hibernate.hbm2ddl.auto" value="validate" />
+			<property name="hibernate.show_sql" value="true" />
+		</properties>
+	</persistence-unit>
+</persistence>

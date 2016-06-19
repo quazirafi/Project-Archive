@@ -1,0 +1,51 @@
+body{
+	padding-top: 128px;
+}
+
+div.topbar{
+	background-color: #00acc1;
+}
+
+.text-topbar{
+	color: #FFF;
+}
+
+.btn-primary{
+	background-color: #00bcd4 !important;
+	border-color: #00bcd4 !important;
+}
+
+.navbar .navbar-right > li > a{
+    color:  #F2F2F2;
+}
+
+.navbar .nav > li > a:hover,  .navbar-brand {
+    color:  #FFF !important;
+}
+
+nav > .container-fluid nav > .nav-tabs{
+	padding-left: 64px;
+	padding-right: 64px;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+	min-width: 256px;
+	float: right!important;
+}
+
+.nav-tabs{
+	padding-left: 64px;
+	padding-right: 64px;
+}

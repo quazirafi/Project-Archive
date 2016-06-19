@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Development/!svn/ver/43/trunk/crmweb/src/main/webapp/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Development/!svn/ver/43/trunk/crmweb/src/main/webapp/WEB-INF/faces-config.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Development/!svn/ver/43/trunk/crmweb/src/main/webapp/WEB-INF/applicationContext.xml
+END
+db-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Development/!svn/ver/43/trunk/crmweb/src/main/webapp/WEB-INF/db-config.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Development/!svn/ver/43/trunk/crmweb/src/main/webapp/WEB-INF/web.xml
+END

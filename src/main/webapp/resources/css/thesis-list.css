@@ -1,0 +1,39 @@
+.panel{
+	border: 5px solid #00bcd4;
+	border-radius: 5px;
+	margin-bottom: 16px;
+}
+
+.sust-archive-btn-crude > span{
+	font-size: 8pt;
+	padding: 0px;
+	margin: 0px;
+}
+
+span > .glyphicon{
+	font-size: 16pt;
+}
+
+.pagination{
+	padding: 0px;
+	margin: 0px;
+}
+
+.sust-archive-btn-add-thesis{
+	margin: 8px;
+}
+
+.searchbar{
+	margin-bottom: 16px;
+}
+
+.table-headertext{
+    font-size: 22pt;
+    font-family: helvetica;
+}
+
+.bottom-buffer { margin-bottom: 16px; }
+
+#modalDelete{
+    top: 20%;
+}
