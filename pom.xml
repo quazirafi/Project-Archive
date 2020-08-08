@@ -35,7 +35,7 @@
 		<c3p0.version>0.9.1.2</c3p0.version>
 		<hibernate.version>3.6.2.Final</hibernate.version>
 		<log4j.version>1.2.16</log4j.version>
-		<mysql.version>5.1.6</mysql.version>
+		<mysql.version>8.0.16</mysql.version>
 		<spring.version>3.1.1.RELEASE</spring.version>
 		<slf4j.version>1.5.8</slf4j.version>
 		<httpclient.version>4.1</httpclient.version>
